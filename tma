@@ -1,0 +1,70 @@
+{
+  "spec_version": "2.0",
+  "type": "bundle",
+  "objects": [
+    {
+      "id": "vulnerability--0f51b436-c9d2-4142-805b-e5c8676f6221",
+      "type": "vulnerability",
+      "created": "2021-11-17T00:00:00.000Z",
+      "modified": "2021-11-17T00:00:00.000Z",
+      "name": "Vulnerability Report for Trend Micro Antivirus for Mac privilege escalation",
+      "description": "Trend Micro Antivirus for Mac could allow a local authenticated attacker to gain elevated privileges on the system, caused by improper access control in com.trendmicro.AFM.HelperTool.  By sending a specially-crafted request, an attacker could exploit this vulnerability to execute arbitrary code on the system with root privileges.",
+      "external_references": [
+        {
+          "source_name": "cve",
+          "external_id": "CVE-2021-43771"
+        }
+      ],
+      "labels": [
+        "xfe-risk-7.8"
+      ],
+      "x_xfe_risk_level": 7.8,
+      "x_xfe_cvss_version": "3.0",
+      "x_xfe_cvss_privilegesrequired": "Low",
+      "x_xfe_cvss_userinteraction": "None",
+      "x_xfe_cvss_scope": "Unchanged",
+      "x_xfe_cvss_access_vector": "Local",
+      "x_xfe_cvss_access_complexity": "Low",
+      "x_xfe_cvss_confidentiality_impact": "High",
+      "x_xfe_cvss_integrity_impact": "High",
+      "x_xfe_cvss_availability_impact": "High",
+      "x_xfe_cvss_remediation_level": "Official Fix",
+      "x_xfe_temporal_score": 6.8,
+      "x_xfe_remedy": "Refer to Trend Micro Security Bulletin: tmka-10832 for patch, upgrade or suggested workaround information. See References.",
+      "x_xfe_platforms_affected": [
+        "Trend Micro Antivirus for MAC 2021 (v11)"
+      ],
+      "x_xfe_exploitability": "Unproven",
+      "x_xfe_consequences": "Gain Privileges",
+      "x_xfe_report_confidence": "Confirmed",
+      "x_xfe_references": [
+        {
+          "link_target": "https://www.zerodayinitiative.com/advisories/ZDI-21-1320/",
+          "link_name": "ZDI-21-1320",
+          "description": "Trend Micro Antivirus for Mac Improper Access Control Privilege Escalation Vulnerability"
+        },
+        {
+          "link_target": "https://helpcenter.trendmicro.com/en-us/article/tmka-10832",
+          "link_name": "Trend Micro Security Bulletin: tmka-10832",
+          "description": "Trend Micro Antivirus for MAC Improper Access Control Privilege Escalation Vulnerability"
+        },
+        {
+          "link_target": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43771",
+          "link_name": "CVE-2021-43771",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "created_by_ref": "identity--69dca7fa-6c5d-b4cf-27fc-26156416dbf5"
+    },
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--69dca7fa-6c5d-b4cf-27fc-26156416dbf5",
+      "created": "2021-11-17T00:00:00.000Z",
+      "modified": "2021-11-17T00:00:00.000Z",
+      "name": "IBM X-Force",
+      "identity_class": "organization"
+    }
+  ],
+  "id": "bundle--87cf65c8-6526-4321-802b-4d0c742f7c32"
+}
